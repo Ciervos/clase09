@@ -20,6 +20,7 @@ body
     position: relative;
     height: 322px;
     box-sizing: border-box;
+    transition: all 0.5s linear;
 }
 
 
@@ -33,6 +34,7 @@ body
 #simcity
 {
     height: 181px;
+    transition: all 0.5s linear;
 }
 
 h1 {
@@ -126,3 +128,24 @@ padding-right: 5px;
 #city:hover .nori {
 display: block;
 }
+
+#dark
+ {
+     position: absolute;
+     background-color: black;
+     top: 0px;
+     left: 0px;
+     opacity: 0; 
+     height: 322px;
+     width: 350px;
+     transition: all 0.5s linear;
+     
+ }
+
+
+#city:hover #dark 
+{
+    height: 222px;
+    opacity: 0.5;
+}
+
