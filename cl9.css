@@ -9,16 +9,31 @@ body
     height: 503px;
     width: 350px;
     background: white;
+
+
+}
+
+#cabeza
+{
     overflow: hidden;
     position: relative;
 }
+#subcity
+{
+    padding: 10px 0px 0px 25px;
+    box-sizing: border-box;   
+    line-height : 12px;
+}
+
 
 h1 {
     color: #333333;
+    font-size: 22px;
 }
 
-h3{
+h2 {
     color: #e74c3c;
+    font-size: 16px;
 }
 
 .arcoiris{
@@ -35,8 +50,8 @@ h3{
     height: 50px;
     color: white;
     text-align: center;
-   font-size: 14px;
-   position: absolute;
+    font-size: 14px;
+    position: absolute;
     top: 15px;
     right: 15px;
     font-weight: bolder;
@@ -46,4 +61,23 @@ h3{
 
 .mar{
     font-size: 9px;
+}
+
+#potos
+{
+
+    display: inline-block;
+    box-sizing: border-box;
+    background: #e74c3c;
+    width: 90px;
+    height: 35px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    font-weight: bolder;
+    line-height : 7px;
+    padding-top: 14px;
 }
