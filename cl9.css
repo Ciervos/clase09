@@ -65,7 +65,6 @@ h2 {
 
 #potos
 {
-
     display: inline-block;
     box-sizing: border-box;
     background: #e74c3c;
@@ -80,4 +79,12 @@ h2 {
     font-weight: bolder;
     line-height : 7px;
     padding-top: 14px;
+}
+
+#vaporeon
+{
+ color: gray;
+ box-sizing: border-box;
+ padding: 45px 0px 0px 25px;
+ font-size: 12px;
 }
