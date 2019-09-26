@@ -9,8 +9,6 @@ body
     height: 503px;
     width: 350px;
     background: white;
-
-
 }
 
 #cabeza
@@ -20,6 +18,8 @@ body
     height: 322px;
     box-sizing: border-box;
 }
+
+
 #subcity
 {
     padding: 10px 0px 0px 25px;
@@ -44,7 +44,6 @@ h2 {
 
 .arcoiris{
     height: 322px;
-    display: inline;
 }
 
 #fecha
@@ -107,12 +106,17 @@ padding-right: 5px;
  color: gray;   
 }
 
-#city:hover ~ #cabeza 
+#city:hover #cabeza 
 
 {
  height: 222px;   
 }
-#city:hover ~ #simcity
+
+#city:hover #simcity
 {
  height: 281px;
+}
+
+#city:hover .nori {
+display: block;
 }
