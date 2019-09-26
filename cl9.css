@@ -1,0 +1,25 @@
+body
+{background: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#city{
+    height: 503px;
+    width: 350px;
+    background: white;
+    overflow: hidden;
+}
+
+h1 {
+    color: #333333;
+}
+
+h3{
+    color: #e74c3c;
+}
+
+.arcoiris{
+    height: 322px;
+    
+}
