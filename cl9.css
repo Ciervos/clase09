@@ -44,6 +44,7 @@ h2 {
 
 .arcoiris{
     height: 322px;
+    display: inline;
 }
 
 #fecha
@@ -115,4 +116,3 @@ padding-right: 5px;
 {
  height: 281px;
 }
-
