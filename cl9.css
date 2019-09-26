@@ -1,3 +1,7 @@
+/* A mejorar:
+El codigo se puede limpiar más por ejemplo: #fecha y #potos comparten muchos atributos que podrian nombrarse solo una ves si ambos compartieran una clase.
+*/
+
 body
 {background: gray;
     font-family: 'Montserrat', sans-serif;
@@ -49,6 +53,7 @@ h2 {
 
 .arcoiris{
     height: 322px;
+    z-index: -1;
 }
 
 #fecha
@@ -68,6 +73,7 @@ h2 {
     font-weight: bolder;
     line-height : 7px;
     padding-top: 14px;
+    z-index: 1;
 }
 
 .mar{
@@ -90,6 +96,7 @@ h2 {
     font-weight: bolder;
     line-height : 7px;
     padding-top: 14px;
+    z-index: 1;
 }
 
 #vaporeon
@@ -138,6 +145,7 @@ display: block;
      opacity: 0; 
      height: 322px;
      width: 350px;
+     z-index: 0;
      transition: all 0.5s linear;
      
  }
