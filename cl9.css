@@ -1,6 +1,7 @@
 body
 {background: gray;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 
@@ -9,6 +10,7 @@ body
     width: 350px;
     background: white;
     overflow: hidden;
+    position: relative;
 }
 
 h1 {
@@ -21,5 +23,27 @@ h3{
 
 .arcoiris{
     height: 322px;
-    
+}
+
+#fecha
+{
+    display: inline-block;
+    box-sizing: border-box;
+    background: #e74c3c;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+   font-size: 14px;
+   position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: bolder;
+    line-height : 7px;
+    padding-top: 14px;
+}
+
+.mar{
+    font-size: 9px;
 }
