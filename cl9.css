@@ -110,8 +110,12 @@ h2 {
  box-sizing: border-box;
  position: absolute;
  font-size: 12px;
- bottom: 20px;
+ bottom: 0px;
  left: 25px;
+ background-color: white;
+ z-index: 1;
+ height: 50px;
+ width: 325px;
 }
 
 #mins,#comentarios
@@ -124,6 +128,7 @@ padding-right: 5px;
 font-size: 14px;
 color: gray;
 line-height : 20px;   
+z-index: 0;
 }
 
 #city:hover #cabeza 
