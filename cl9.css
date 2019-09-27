@@ -2,6 +2,8 @@
 El codigo se puede limpiar más por ejemplo: #fecha y #potos comparten muchos atributos que podrian nombrarse solo una ves si ambos compartieran una clase.
 
 Dejar de usar tanto id y usar más clases en su lugar
+
+Empezar a usar nombres más entendibles (desde ya pido disculpas por quienes leen mi código por lo caotico de los nombres)
 */
 
 body
